@@ -42,11 +42,11 @@ A Frappe/ERPNext instance can be setup and replicated easily using [Docker](http
 To setup either of the environments, you will need to clone the official docker repository:
 
 ```sh
-$ git clone https://github.com/frappe/frappe_docker.git
+$ git clone https://github.com/Ektai-Solution-Pty-Ltd/ekt-frappe_docker.git
 $ cd frappe_docker
 ```
 
-A quick setup guide for both the environments can be found below. For more details, check out the [Frappe/ERPNext Docker Repository](https://github.com/frappe/frappe_docker).
+A quick setup guide for both the environments can be found below. For more details, check out the [Frappe/ERPNext Docker Repository](https://github.com/Ektai-Solution-Pty-Ltd/ekt-frappe_docker).
 
 ### Easy Install Script
 
@@ -91,14 +91,14 @@ In case the setup fails, the log file is saved under `/tmp/logs/install_bench.lo
  - Create an Issue in this repository with the log file attached.
  - Search for an existing issue or post the log file on the [Frappe/ERPNext Discuss Forum](https://discuss.erpnext.com/c/bench) with the tag `installation_problem` under "Install/Update" category.
 
-For more information and advanced setup instructions, check out the [Easy Install Documentation](https://github.com/frappe/bench/blob/develop/docs/easy_install.md).
+For more information and advanced setup instructions, check out the [Easy Install Documentation](https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench/blob/develop/docs/easy_install.md).
 
 
 ### Manual Installation
 
 Some might want to manually setup a bench instance locally for development. To quickly get started on installing bench the hard way, you can follow the guide on [Installing Bench and the Frappe Framework](https://frappe.io/docs/user/en/installation).
 
-You'll have to set up the system dependencies required for setting up a Frappe Environment. Checkout [docs/installation](https://github.com/frappe/bench/blob/develop/docs/installation.md) for more information on this. If you've already set up, install bench via pip:
+You'll have to set up the system dependencies required for setting up a Frappe Environment. Checkout [docs/installation](https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench/blob/develop/docs/installation.md) for more information on this. If you've already set up, install bench via pip:
 
 
 ```sh
@@ -107,8 +107,8 @@ $ pip install frappe-bench
 
 For more extensive distribution-dependent documentation, check out the following guides:
 
- - [Hitchhiker's Guide to Installing Frappe on Linux](https://github.com/frappe/frappe/wiki/The-Hitchhiker%27s-Guide-to-Installing-Frappe-on-Linux)
- - [Hitchhiker's Guide to Installing Frappe on MacOS](https://github.com/frappe/bench/wiki/Setting-up-a-Mac-for-Frappe-ERPNext-Development)
+ - [Hitchhiker's Guide to Installing Frappe on Linux](https://github.com/Ektai-Solution-Pty-Ltd/ekt-frappe/wiki/The-Hitchhiker%27s-Guide-to-Installing-Frappe-on-Linux)
+ - [Hitchhiker's Guide to Installing Frappe on MacOS](https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench/wiki/Setting-up-a-Mac-for-Frappe-ERPNext-Development)
 
 
 ## Basic Usage
@@ -157,17 +157,17 @@ For more extensive distribution-dependent documentation, check out the following
 	```
 
 
-For more in-depth information on commands and their usage, follow [Commands and Usage](https://github.com/frappe/bench/blob/develop/docs/commands_and_usage.md). As for a consolidated list of bench commands, check out [Bench Usage](https://github.com/frappe/bench/blob/develop/docs/bench_usage.md).
+For more in-depth information on commands and their usage, follow [Commands and Usage](https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench/blob/develop/docs/commands_and_usage.md). As for a consolidated list of bench commands, check out [Bench Usage](https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench/blob/develop/docs/bench_usage.md).
 
 
 ## Custom Bench Commands
 
-If you wish to extend the capabilities of bench with your own custom Frappe Application, you may follow [Adding Custom Bench Commands](https://github.com/frappe/bench/blob/develop/docs/bench_custom_cmd.md).
+If you wish to extend the capabilities of bench with your own custom Frappe Application, you may follow [Adding Custom Bench Commands](https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench/blob/develop/docs/bench_custom_cmd.md).
 
 
 ## Bench Manager
 
-[Bench Manager](https://github.com/frappe/bench_manager) is a GUI frontend for Bench with the same functionalties. You can install it by executing the following command:
+[Bench Manager](https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench_manager) is a GUI frontend for Bench with the same functionalties. You can install it by executing the following command:
 
 ```sh
 $ bench setup manager
@@ -176,7 +176,7 @@ $ bench setup manager
  - **Note:** This will create a new site to setup Bench Manager, if you want to set it up on an existing site, run the following commands:
 
 	```sh
-	$ bench get-app https://github.com/frappe/bench_manager.git
+	$ bench get-app https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench_manager.git
 	$ bench --site <sitename> install-app bench_manager
 	```
 
@@ -190,7 +190,7 @@ $ bench setup manager
 - [Manual Setup](https://frappe.io/docs/user/en/bench/guides/manual-setup.html)
 - [Setup Production](https://frappe.io/docs/user/en/bench/guides/setup-production.html)
 - [Setup Multitenancy](https://frappe.io/docs/user/en/bench/guides/setup-multitenancy.html)
-- [Stopping Production](https://github.com/frappe/bench/wiki/Stopping-Production-and-starting-Development)
+- [Stopping Production](https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench/wiki/Stopping-Production-and-starting-Development)
 
 For an exhaustive list of guides, check out [Bench Guides](https://frappe.io/docs/user/en/bench/guides).
 
@@ -214,7 +214,7 @@ To contribute and develop on the bench CLI tool, clone this repo and create an e
 
 
 ```sh
-$ git clone https://github.com/frappe/bench ~/bench-repo
+$ git clone https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench ~/bench-repo
 $ pip3 install -e ~/bench-repo
 $ bench src
 /Users/frappe/bench-repo
